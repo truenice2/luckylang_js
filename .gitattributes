@@ -1,0 +1,6 @@
+# 构建产物仓库：禁止任何换行符转换，必须字节级保真
+* -text
+
+# 文本类仍然按 LF 存储，方便 GitHub 上阅读
+*.md  text eol=lf
+*.txt text eol=lf
